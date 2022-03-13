@@ -1,0 +1,11 @@
+{
+    "name": "test-app",
+    "version": "1.0.0",
+    "scripts": {
+        "dev-app": "cross-env APP=test-app PORT=8001 webpack serve --config ../../script/webpack/webpack.dev.js",
+        "build-app": "cross-env APP=test-app webpack --config ../../script/webpack/webpack.build.js"
+    },
+    "dependencies": {
+        "test-pkg": "1.0.0"
+    }
+}

@@ -1,0 +1,6 @@
+node_modules/*
+
+packages/*/lib
+packages/*/typing
+packages/*/module
+packages/*/node_modules/*

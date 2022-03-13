@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./lib",
+        "declarationDir": "./lib", // 定义文件输出目录
+        "paths": {
+           "@/*": ["src/*"]
+        },
+        "noImplicitAny": false
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

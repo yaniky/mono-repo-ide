@@ -1,0 +1,5 @@
+tsconfig.json
+karma.conf.js
+test/*
+src/*
+node_modules/*
